@@ -76,6 +76,12 @@ header{
   border-bottom: 2px solid #ffffff;
 }
 
+#projects h2{
+  text-align: center;
+  width: 100%;
+  text-shadow: 2px 2px 5px #ab6afb;
+}
+
 #project-list{
   display: flex;
   flex-wrap: wrap;
@@ -83,6 +89,7 @@ header{
   justify-content: center;
   align-items: center;
   padding-top: 50px;
+  
 }
 
 #project-list div{
@@ -98,7 +105,7 @@ header{
 }
 
 /*figure*/
- #nav-link{
+#nav-link{
   color: white;
   text-decoration: none;
 }
@@ -116,6 +123,12 @@ figcaption{
   font-weight: bold;
   padding: 1.5rem 0.5rem;
   text-align: center;
+}
+
+/*iframe*/
+iframe{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 /*contact-info & footer*/
